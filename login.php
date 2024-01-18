@@ -10,13 +10,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     foreach ($users->user as $user) {
         if ((string)$user->username === $username && password_verify($password, (string)$user->password)) {
-            // Prijavljivanje uspješno
             header("Location: index.html");
             exit();
         }
     }
 
-    // Prijavljivanje neuspješno
     echo "Pogrešno korisničko ime ili lozinka.";
 }
 ?>

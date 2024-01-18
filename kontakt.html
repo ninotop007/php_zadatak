@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+		<!-- CSS -->
+		<link rel="stylesheet" href="style.css">
+		<!-- End CSS -->
+		<!-- meta elements -->
+		<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <meta name="description" content="some description">
+        <meta name="keywords" content="keyword 1, keyword 2, keyword 3, keyword 4, ...">
+		
+		<!-- Schema.org markup for Google+ -->
+		<meta itemprop="name" content="Hello Example">
+		<meta itemprop="description" content="Some description">
+		<meta itemprop="image" content="Your URL"> 
+		
+		<!-- Open Graph data -->
+		<meta property="og:title" content="Hello Example">
+		<meta property="og:type" content="article">
+		<meta property="og:url" content="Your URL">
+		<meta property="og:image" content="Your URL">
+		<meta property="og:description" content="Some description">
+		<meta property="article:tag" content="keyword 1, keyword 2, keyword 3, keyword 4, ...">
+		
+		<!-- Twitter Card data -->
+		<meta name="twitter:title" content="Hello Example">
+		<meta name="twitter:description" content="Some description">
+		
+        <meta name="author" content="Nino Topolnjak">
+		<!-- favicon meta -->
+		<link rel="icon" href="favicon.ico" type="image/x-icon"/>
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+		<!-- end favicon meta -->
+		<!-- end meta elements -->
+		
+		<!-- Google Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet"> 
+		<!-- End Google Fonts -->
+		<title>Kontakt</title>
+		<link rel="shortcut icon" href="slike/velebit.ico" />
+	</head>
+<body>
+	<header>
+		<div class="hero-image"></div>
+		<nav>
+			<ul>
+			  <li><a href="index.html">Početna</a></li>
+			  <li><a href="turizam.html">Turizam</a></li>
+			  <li><a href="kontakt.html">Kontakt</a></li>
+			  <li><a href="o_velebitu.html">O Velebitu</a></li>
+			  <li><a href="galerija.html">Galerija</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<h1>Javite nam se!</h1>
+		<div id="contact">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12953.763898511086!2d15.34849877454493!3d44.541222205830024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x21bc58baf51e9502!2sPark%20prirode%20Velebit!5e0!3m2!1shr!2shr!4v1573424702491!5m2!1shr!2shr" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+			<form action="http://work2.eburza.hr/pwa/responzive-page/send-contact.php" id="contact_form" name="contact_form" method="POST">
+				<label for="fname">Vaše ime*</label>
+				<input type="text" id="fname" name="firstname" placeholder="Vaše ime..." required>
+
+				<label for="lname">Vaše prezime*</label>
+				<input type="text" id="lname" name="lastname" placeholder="Vaše prezime..." required>
+				
+				<label for="lname">Vaš email*</label>
+				<input type="email" id="email" name="email" placeholder="Vaš e-mail..." required>
+
+				
+				<label for="subject">Vaš upit</label>
+				<textarea id="subject" name="subject" placeholder="Napišite nešto" style="height:200px"></textarea>
+
+				<input type="submit" value="Submit">
+			</form>
+		</div>
+	</main>
+	<footer>
+		<p>Copyright &copy; 2024 Nino Topolnjak. <a href="https://github.com/ninotop007"><img src="slike/GitHub-Mark-Light-32px.png" title="Github" alt="Github"></a></p>
+	</footer>
+</body>
+</html>

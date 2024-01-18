@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Početna</title>
+</head>
+<body>
+    <h2>Prijava</h2>
+    <form action="login.php" method="post">
+        <label for="username">Korisničko ime:</label>
+        <input type="text" id="username" name="username" required>
+        <br>
+        <label for="password">Lozinka:</label>
+        <input type="password" id="password" name="password" required>
+        <br>
+        <input type="submit" value="Prijavi se">
+    </form>
+
+    <h2>Registracija</h2>
+    <form action="register.php" method="post">
+        <label for="new_username">Novo korisničko ime:</label>
+        <input type="text" id="new_username" name="new_username" required>
+        <br>
+        <label for="new_password">Nova lozinka:</label>
+        <input type="password" id="new_password" name="new_password" required>
+        <br>
+        <input type="submit" value="Registriraj se">
+    </form>
+</body>
+</html>
